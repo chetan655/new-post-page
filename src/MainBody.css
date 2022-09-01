@@ -1,0 +1,53 @@
+.postMainBody{
+    font-size: 25px;
+    text-align: center;
+}
+
+.postMainBody button{
+    font-weight: bold;
+    width: 25%;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.titleInput{
+    margin-bottom: 20px;
+}
+
+.titleInput input{
+    width: 90%;
+    height: 40px;
+}
+
+.articleTextDiv{
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 75px;
+}
+
+.abstractTextDiv{
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 75px;
+}
+
+.abstractText{
+    width: 93%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.articleText{
+    width: 93%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.tagsInput{
+    margin-bottom: 20px;
+}
+
+.tagsInput input{
+    width: 90%;
+    height: 40px;
+}

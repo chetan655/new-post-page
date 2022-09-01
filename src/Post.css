@@ -1,0 +1,26 @@
+.radioBtns{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-table;
+}
+ 
+.radioBtns p{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: table-cell;
+}
+
+.radioBtns input{
+    margin-left: 40px;
+    margin-right: 20px;
+    display: table-cell;
+}
+
+.postFooter{
+    font-size: 25px;
+    background-color: gray;
+    word-wrap: break-word;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
