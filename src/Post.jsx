@@ -1,7 +1,7 @@
 import Questions from './Questions';
 import Articles from './Articles';
 import { React, useState } from 'react';
-import './Post.css'
+import './styles/Post.css'
 
 function Post() {
   const [post, setPost] = useState();

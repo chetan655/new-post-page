@@ -1,6 +1,6 @@
 import React from 'react';
 import Post from './Post';
-import './App.css'
+import './styles/App.css'
 
 function App(){
   return(

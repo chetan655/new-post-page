@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import './MainBody.css'
+import './styles/MainBody.css'
 
 function Articles() {
   const [form, setForm] = useState({
