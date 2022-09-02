@@ -14,10 +14,10 @@ function Articles() {
     const { value, name } = event.target;
 
     setForm((state) => ({
-      ...state,[name]: value,
+      state,
+      [name]: value
     }));
   };
-  
   
   return (
     <div className="postMainBody">
@@ -48,7 +48,7 @@ function Articles() {
         className='articleText'
         name='Article'
         value={form.Article}
-        placeholder='Enter a 1-paragraph abstract'
+        placeholder='Enter a 1-paragraph article text'
         type='text'
       />
 

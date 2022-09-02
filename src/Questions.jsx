@@ -3,19 +3,20 @@ import './styles/MainBody.css'
 
 function Questions() {
     
-    const [form, setForm] = useState({
-        Title: '',
-        Description: '',
-        Tags: '',
-    });
+  const [form, setForm] = useState({
+    Title: '',
+    Description: '',
+    Tags: '',
+  });
 
-    const handleChange = (event) => {
-        const { value, name } = event.target;
+  const handleChange = (event) => {
+    const { value, name } = event.target;
 
-        setForm((state) => ({
-        ...state,[name]: value,
-        }));
-    };
+    setForm((state) => ({
+    state,
+    [name]: value
+    }));
+  };
 
   return (
     <div className='postMainBody'>
@@ -37,6 +38,7 @@ function Questions() {
         name='Description'
         value={form.Description}
         onChange={handleChange}
+        placeholder="Type Here :)"
       />
 
       <div className='tagsInput'>

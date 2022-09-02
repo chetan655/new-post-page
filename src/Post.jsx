@@ -14,19 +14,19 @@ function Post() {
         <p>Select type of Post:</p>
 
         <input
-          className='options1'
+          className='radioBtn-1'
           type='radio'
           name='Post Type'
           value='Questions'
-          onClick={() => setPost(true)}
+          onClick={() => setPost(false)}
         />Question
 
         <input
-          className='options2'
+          className='radioBtn-2'
           type='radio'
           name='Post Type'
           value='Articles'
-          onClick={() => setPost(false)}
+          onClick={() => setPost(true)}
         />Article
 
       </div>
@@ -35,8 +35,8 @@ function Post() {
           <p>What do you want to ask or share</p>
       </div>
 
-      {post === true && <Questions />}
-      {post === false && <Articles />}
+      {post === false && <Questions />}
+      {post === true && <Articles />}
 
     </div>
   );
